@@ -1,14 +1,137 @@
 body{
    background-color: #030712;
    color:beige;
+   font-family: poppins;
+   line-height: 1.6;
+   margin: 0;
+   padding: 0;
+}
+hr{
+   width: 50%;
+   margin: 20px auto;
+   border-top: 1px solid white;
+}
+h1,h2{
+   font-weight: 500;
+}
+p,a{
+   color:beige;
+   font-weight: 400;
+   
 }
 a{
    color:beige;
+   text-decoration: none;
+   display: inline-block;
+   margin: 5px 0;
+   
 }
+
+
 .my{
    color:red;
    font-size: 2rem;
 }
 .that{
    color:yellow;
+}
+.fas, .fab{
+   margin-right: 1px;
+   color: inherit;
+}
+.linkIcon{
+   display: inline-block;
+   margin: 0 10px;
+   width: 50px;
+   height: 50px;
+   font-size: 30px;
+   border-radius: 50%;
+   color: white;
+   line-height: 50px;
+   text-align: center;
+}
+.linkIcon:hover{
+   transform: scale(1.2);
+}
+.email-icon{
+   background-color: red;
+}
+.ink-icon{
+   background-color: blue;
+}
+ footer{
+   background: linear-gradient(to right, #831bcd, #f9620b);
+   color: white;
+   padding: 20px 0;
+   text-align: center;
+
+}
+header{
+   background: linear-gradient(to right, #831bcd, #f9620b);
+   color: white;
+   padding: 0.5px 0;
+   text-align: center;
+
+}
+section{
+   padding: 20px;
+   
+   
+}
+img{
+   width: 200px;
+   height: 200px;
+   border-radius: 50%;
+   
+   
+   box-shadow: 0 5px 10px white;
+   object-fit: cover;
+}
+ul{
+   list-style-type:none ;
+   padding: 0;
+   text-align: center;
+}
+ul li{
+   display: inline-block;
+   background: white;
+   padding: 10px 15px;
+   border-radius: 5px;
+   box-shadow: 0 2px 4px white;
+   margin: 0 5px;
+   color: black
+}
+form{
+   width: 100%;
+   max-width: 500px;
+   margin: 20px auto;
+   padding: 22px;
+   background: white;
+   box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+   color: black;
+   font-size: 20px;
+   border-radius: 10px;
+   text-align: center;
+}
+form button{
+   width: 500px;
+   text-align: center;
+   margin-top: 20px;
+   font-size: 18px;
+   background: linear-gradient(to right, #831bcd, #f9620b);
+   color: white;
+   border-radius: 5px;
+   border-color: white;
+}
+form button:hover{
+   background: linear-gradient(to right, #f9620b,  #831bcd );
+}
+form input{
+   align-items: center;
+   margin-left: 35px;
+
+}
+form textarea{
+   margin-top: 20px;
+   margin-left: 10px;
 }
