@@ -107,7 +107,7 @@ form{
    margin: 20px auto;
    padding: 22px;
    background: white;
-   box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+   box-shadow: 0 5px 15px rgba(75, 27, 27, 0.1);
    color: black;
    font-size: 20px;
    border-radius: 10px;
@@ -134,4 +134,67 @@ form input{
 form textarea{
    margin-top: 20px;
    margin-left: 10px;
+}
+
+
+
+@media screen and (max-width: 800px) {
+   form{
+      width: 100%;
+      max-width: 300px;
+      margin: 20px auto;
+      padding: 22px;
+      background: white;
+      box-shadow: 0 5px 15px rgba(75, 27, 27, 0.1);
+      color: black;
+      font-size: 15px;
+      border-radius: 10px;
+      text-align: center;
+   }
+   form button{
+      width: 80%;
+      text-align: center;
+      margin-top: 20px;
+      font-size: 25px;
+      background: linear-gradient(to right, #831bcd, #f9620b);
+      color: white;
+      border-radius: 5px;
+      border-color: white;
+   }
+   form button:hover{
+      background: linear-gradient(to right, #f9620b,  #831bcd );
+   }
+   form input{
+      align-items: center;
+      margin-left: 35px;
+   
+   }
+   form textarea{
+      margin-top: 20px;
+      margin-left: 10px;
+   }
+   
+   ul{
+      list-style-type:none ;
+      padding: 0;
+      text-align: center;
+   }
+   ul li{
+      display:grid;
+      background: white;
+      
+      border-radius: 5px;
+      box-shadow: 0 2px 4px white;
+      margin: 10px;
+      color: black
+   }
+   footer{
+      background: linear-gradient(to right, #831bcd, #f9620b);
+      color: white;
+      padding: 5px 0;
+      text-align: center;
+   
+   }
+   
+   
 }
