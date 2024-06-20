@@ -211,7 +211,7 @@ form textarea{
        background: white;
        border-radius: 10px;
        background: #050e27;
-       box-shadow: 8px 8px 12px rgba(238, 249, 38, 0.7);}
+       box-shadow: 8px 8px 12px rgb(238, 249, 38);}
 
        img{
          width: 70px;
@@ -225,10 +225,40 @@ form textarea{
    .purple{
       color: rgb(47, 11, 145);
       
-      font-size: 27px;
+      font-size: 30px;
       font-weight: 700;
       font-style: poppins;
    }
    
   
+
+  
+  details{
+   max-width: 300px;
+   width: 100%;
+   background:#07163f;
+   box-shadow: 10px 10px 8px rgba(240, 252, 27, 0.954);
+   color: whitesmoke;
+   border-radius: 10px;
+   
+  }
+  summary{
+   font-size: 25px;
+  }
+  summary:hover{
+   background: rgb(243, 243, 242);
+   color: black;
+   border-radius: 10px;
+   
+  }
+ 
+  .jp{
+   height: 200px;
+   width: 270px;
+   border-radius: 30px;
+   
+   
+   border-style: none;
+  }
+
 }
