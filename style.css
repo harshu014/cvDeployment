@@ -256,9 +256,25 @@ form textarea{
    height: 200px;
    width: 270px;
    border-radius: 30px;
-   
-   
+   border-style: solid;
+   border-color: #030712;
    border-style: none;
   }
-
+  .dd{
+   width:100%;
+   
+  }
+  
+  .cert{
+     height: 300px;
+     width: 300px;
+     border-radius: 10px;
+     box-shadow: 7px 6px 6px 6px rgb(11, 186, 95);
+     background: #050e27;
+  }
+  .ce{
+   height:200px;
+   width:280px;
+   border-radius: 20px;
+  }
 }
