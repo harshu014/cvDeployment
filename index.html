@@ -11,22 +11,30 @@
 </head>
 <body>
    <center> <header>
+    <div id="status"> Network</div>
+    <script>
+     const status = document.getElementById("status");
+
+     if (navigator.onLine) {
+         status.innerHTML = '<div class="online">You Are Online </div>';
+
+     }
+     else{
+          status.innerHTML = '<div class="offline">You are Offline </div>';
+     }
+    </script>
         <h1>Welcome To <span class="purple">My World</span></h1>
         <hr> 
               
     
             </header>
-
+           
+ 
             
                 <h2>Hii Myself</h2>
                 <h2>  <span class="purple">Shwetang </span> Singh</h2>
                 <h2>Persuing <span class="purple">BCA</span> From <span class="purple">NCM</span></h2>
-                <!-- <img src="dev.png" alt="shwetang pic" width="300"> -->
-            
-                
-                <!-- <h2>Lets Connect Here</h2>
-                <a  href="mailto:harshsingh24630@gmail.com" class="linkIcon email-icon" ><i class="fa-regular fa-envelope"></i></a>
-                    <a  href="/" class="linkIcon ink-icon"><i class="fa-brands fa-linkedin"></i></a> -->
+               
             <hr>
             <!-- <section> <p>Take A Look About My Some Project </p>
                 <P><a class="my" href="page.html">Project 1</a></P></section>-->
@@ -38,18 +46,7 @@
                 <img src="html.png"><image src="css.png"> <image src="next.png" class="big"> <image src="node-js.png"> <image src="tailwind.png"> <image src="js.png" class="big"> <image src="react.png" class="big"><img src="/c-programming-icon-c-programming-language-logo-11562945679duaxtn3yq0.png"><img src="/depositphotos_488252618-stock-illustration-python-symbol-white-background-rendering.jpg">
                                     </marquee>
                 </div>
-                <!-- <table>
-                    <tr>
-                        <td>
-                            <ul>
-                                <li>Web Developer</li>
-                                <li>Logo Designer</li>
-                                <li> SM Marketing</li>
-                            </ul>
-                        </td>
-
-                    </tr>
-                </table> -->
+              
 
             </section>
             <section><hr>
@@ -113,7 +110,7 @@
                 <div><hr class="dd"><div>
                 <p>&copy;2024 Portfolio Built By: Shwetang Singh</p>
             </footer>
-
+         
 
     </center>
 </body>
