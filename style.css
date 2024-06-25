@@ -277,4 +277,41 @@ form textarea{
    width:280px;
    border-radius: 20px;
   }
+  .online {
+   font-size: 20px;
+   background-color: white;
+   border-radius: 50px;
+   font-weight: 800;
+   color: green;
+   height: 35px;
+   width: 100%;
+   max-width: 200px;
+   -webkit-animation: cssAnimation 5s forwards; 
+    animation: cssAnimation 5s forwards;
 }
+@keyframes cssAnimation {
+    0%   {opacity: 1;}
+    90%  {opacity: 1;}
+    100% {opacity: 0;}
+}
+@-webkit-keyframes cssAnimation {
+    0%   {opacity: 1;}
+    90%  {opacity: 1;}
+    100% {opacity: 0;}
+}
+  }
+  .offline{
+   font-size: 20px;
+   background-color: white;
+   border-radius: 50px;
+   font-weight: 800;
+   color: red;
+   height: 35px;
+   width: 100%;
+   max-width: 200px;
+   text-align: center;
+  
+  }
+
+
+
