@@ -1,5 +1,5 @@
 body{
-   background-color: #030712;
+   background-color: #0f1b3d;
    color:beige;
    font-family: poppins;
    line-height: 1.6;
@@ -13,7 +13,8 @@ hr{
 }
 h1,h2{
    font-weight: 500;
-   font-family: "poppins";
+   font-family: poppins;
+   font-size: 40px;
 }
 p,a{
    color:beige;
@@ -42,7 +43,7 @@ a{
 }
 .linkIcon{
    display: inline-block;
-   margin: 0 25px;
+   margin: 0 35px;
    width: 60px;
    height: 60px;
    font-size: 30px;
@@ -59,137 +60,160 @@ a{
 }
 .ink-icon{
    background-color: blue;
+   
 }
- footer{
+
+
+footer{
    
    color: white;
-   padding: 20px 0;
+   padding: 5px 0;
    text-align: center;
 
 }
 header{
-
+   
    color: white;
-   padding: 0.5px 0;
-   text-align: center;
-
-}
-section{
-   padding: 20px;
-   
-   
-   
-}
-img{
-   width: 100px;
-   height: 100px;
-   
-   padding: 10px;
-   
-   
-   object-fit: cover;
-}
-ul{
-   list-style-type:none ;
    padding: 0;
    text-align: center;
-}
-ul li{
-   display: inline-block;
-   background: white;
-   padding: 10px 15px;
-   border-radius: 5px;
-   box-shadow: 0 2px 4px white;
-   margin: 0 5px;
-   color: black
-}
-form{
-   width: 100%;
-   max-width: 500px;
-   margin: 20px auto;
-   padding: 22px;
-   background: white;
-   box-shadow: 0 5px 15px rgba(75, 27, 27, 0.1);
-   color: black;
-   font-size: 20px;
-   border-radius: 10px;
-   text-align: center;
-}
-form button{
-   width: 500px;
-   text-align: center;
-   margin-top: 20px;
-   font-size: 18px;
-   background: linear-gradient(to right, #831bcd, #f9620b);
-   color: white;
-   border-radius: 5px;
-   border-color: white;
-}
-form button:hover{
-   background: linear-gradient(to right, #f9620b,  #831bcd );
-}
-form input{
-   align-items: center;
-   margin-left: 35px;
+   
 
 }
-form textarea{
-   margin-top: 20px;
-   margin-left: 10px;
+.box{
+    width: 100%;
+    max-width: 500px;
+    background: white;
+    border-radius: 10px;
+    background: #050e27;
+    box-shadow: 8px 8px 12px rgb(238, 249, 38);}
+
+    img{
+      width: 70px;
+      height: 70px;
+      
+      padding: 10px;
+      
+      
+      object-fit: cover;
+   }
+.purple{
+   color: rgb(37, 46, 222);
+   
+   font-size: 40px;
+   font-weight: 700;
+   font-style: poppins;
 }
+
+
+.sec{
+   
+   width: 100%;
+   max-width: 600px;
+   border-style: dashed;
+   border-radius: 10px;
+   
+}
+section{
+   width: 100%;
+   max-width: 600px;
+   border-style: dashed;
+   border-radius: 10px;
+   background-color: #030712;
+}
+
+details{
+max-width: 600px;
+width: 100%;
+background:#030712;
+box-shadow: 10px 10px 8px rgba(240, 252, 27, 0.954);
+color: whitesmoke;
+border-radius: 10px;
+
+}
+summary{
+font-size: 25px;
+}
+summary:hover{
+background: rgb(243, 243, 242);
+color: black;
+border-radius: 10px;
+
+}
+
+.jp{
+height: 300px;
+width: 400px;
+border-radius: 30px;
+border-style: solid;
+border-color: #030712;
+
+border-color: #edf737;
+}
+.dd{
+width:100%;
+
+}
+
+.cert{
+  height: 300px;
+  width: 300px;
+  border-radius: 10px;
+  box-shadow: 7px 6px 6px 6px rgb(11, 186, 95);
+  background: #050e27;
+}
+.ce{
+height:300px;
+width:450px;
+border-radius: 20px;
+}
+.online {
+font-size: 20px;
+background-color: white;
+border-radius: 50px;
+font-weight: 800;
+color: green;
+height: 35px;
+width: 100%;
+max-width: 200px;
+-webkit-animation: cssAnimation 5s forwards; 
+ animation: cssAnimation 5s forwards;
+}
+@keyframes cssAnimation {
+ 0%   {opacity: 1;}
+ 90%  {opacity: 1;}
+ 100% {opacity: 0;}
+}
+@-webkit-keyframes cssAnimation {
+ 0%   {opacity: 1;}
+ 90%  {opacity: 1;}
+ 100% {opacity: 0;}
+}
+
+.offline{
+font-size: 20px;
+background-color: white;
+border-radius: 50px;
+font-weight: 800;
+color: red;
+height: 35px;
+width: 100%;
+max-width: 200px;
+text-align: center;
+
+}
+
+
+
+
+
 
 
 
 @media screen and (max-width: 800px) {
-   form{
-      width: 100%;
-      max-width: 300px;
-      margin: 20px auto;
-      padding: 22px;
-      background: white;
-      box-shadow: 0 5px 15px rgba(75, 27, 27, 0.1);
-      color: black;
-      font-size: 15px;
-      border-radius: 10px;
-      text-align: center;
-   }
-   form button{
-      width: 80%;
-      text-align: center;
-      margin-top: 20px;
-      font-size: 25px;
-      background: linear-gradient(to right, #831bcd, #f9620b);
-      color: white;
-      border-radius: 5px;
-      border-color: white;
-   }
-   form button:hover{
-      background: linear-gradient(to right, #f9620b,  #831bcd );
-   }
-   form input{
-      align-items: center;
-      margin-left: 35px;
    
-   }
-   form textarea{
-      margin-top: 20px;
-      margin-left: 10px;
-   }
+ 
    
-   /* ul{
-      list-style-type:none ;
-      padding: 0;
-      text-align: center;
-   }
-   ul li{
-      display:grid;
-      background: white;
-      
-      border-radius: 5px;
-      box-shadow: 0 2px 4px white;
-      margin: 10px;
-      color: black
-   } */
+ 
    footer{
       
       color: white;
@@ -225,7 +249,7 @@ form textarea{
    .purple{
       color: rgb(47, 11, 145);
       
-      font-size: 30px;
+      font-size: 40px;
       font-weight: 700;
       font-style: poppins;
    }
@@ -263,6 +287,12 @@ form textarea{
   .dd{
    width:100%;
    
+  }
+  section{
+   max-width: 350px;
+  }
+  .sec{
+   max-width: 350px;
   }
   
   .cert{
@@ -312,6 +342,6 @@ form textarea{
    text-align: center;
   
   }
-
+ 
 
 
