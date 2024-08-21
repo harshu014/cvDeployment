@@ -296,13 +296,7 @@ text-align: center;
          
          object-fit: cover;
       }
-   .purple{
-      color: rgb(47, 11, 145);
-      
-      font-size: 40px;
-      font-weight: 700;
-      font-style: poppins;
-   }
+ 
    
   
 
@@ -325,6 +319,15 @@ text-align: center;
    border-radius: 10px;
    
   }
+  h1,h2{
+   font-weight: 500;
+   font-family: poppins;
+   font-size: 20px;
+}
+.purple{
+   font-size: 20px;
+   color: #f8be00;
+}
  
   .jp{
    height: 200px;
